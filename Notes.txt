@@ -1,3 +1,25 @@
-Terraform : 
+Core Concepts:
 
-Defination : 
+1. Terraform Core : CLI tool that provisions and manages the infrastructure resource as defined in Terraform config file.
+2. Providers : Extends the functionality Terraform for specific plateform such as AWS, OCI and Azure.
+3. Resource : Infrastructure components or services that are managed by Terraform such as VM, Network and DNS Record.
+4. State : How terraform maps the desired config with real word resoruce on the target plateform.
+5. Modules : Resusable and shared blocks of code that can be called and over again.
+
+Terraform Community - CLI
+HCP Terraform - Saas plateform
+Terraform Enterprise - Self Hosted & managed
+
+HCL Style Guide :
+
+1. Use comments
+2. Use underscore to separate multiple words
+3. Indent two spaces for each nested level
+4. Align equal signs for values on consecutive line
+5. Use empty line to separate group arguments in a blocks
+
+Resource Referencing :
+
+1. Create more dynamic configurations
+2. Automatic Dependency Mapping
+3. Resource Identifiers
