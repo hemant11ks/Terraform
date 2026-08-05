@@ -23,3 +23,30 @@ Resource Referencing :
 1. Create more dynamic configurations
 2. Automatic Dependency Mapping
 3. Resource Identifiers
+
+--------------------------------------------------------------------------------
+
+Terraform State : is a file that tracks resources including their ID and relationships
+Without state file, Terraform would not know its current state.
+
+Importance -> Resource Management, Dependency Management and Code Collaboration
+
+TERRAFORM configuration  <--- State File --->  CLOUD Infrastructure
+
+State Storage - JSON Formate (terraform.tfstate)
+Terraform lock the state file while performing any operation
+
+Terraform Remote State : Remote state in Terraform means storing your infrastructure's state file
+in a shared, off-site data store instead of your local computer.
+Common places to store it include Amazon S3, Google Cloud Storage, or HCP Terraform.
+
+--------------------------------------------------------------------------------------
+
+Terraform Workflow : 
+
+Terraform Init : Create the .terraform directory which includes
+
+Working directory [.terraform] -> Providers (AWS) and (Module - EKS) with version
+
+We can update the version using terraform init -upgrade
+
