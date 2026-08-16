@@ -50,3 +50,8 @@ Working directory [.terraform] -> Providers (AWS) and (Module - EKS) with versio
 
 We can update the version using terraform init -upgrade
 
+---------------------------------------------------------------------------------------
+
+Types of Block :
+
+
