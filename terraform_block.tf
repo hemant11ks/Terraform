@@ -1,5 +1,5 @@
 # 1. TERRAFORM SETTINGS BLOCK
-# Configures core Terraform behaviors: required binary/provider versions and the state backend.
+# Configures core Terraform behaviors: required binary/provider versions and the state backend area.
 terraform {
   required_version = ">= 1.5.0" # Constrains the Terraform CLI version
 
